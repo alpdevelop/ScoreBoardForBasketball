@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link src="" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="container">
+        <div class="score-area">
+            <div class="home">
+                <h1>HOME</h1>
+                <div class="home-box">
+                    <p id="home-scr"class="score"></p>
+                    <div class="button">
+                        <button onclick="one()">+1</button>
+                        <button onclick="two()">+2</button>
+                        <button onclick="three()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="guest-score">
+                    <p id="guest-scr"class="score"></p>
+                    <div class="button">
+                        <button onclick="one2()">+1</button>
+                        <button onclick="two2()">+2</button>
+                        <button onclick="three2()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reset-btn">
+            <button id="btn" class="resetHome" onclick="rsthm()">RESET</button>
+            <button id="btn" class="resetGuest" onclick="rstgst()">RESET</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
